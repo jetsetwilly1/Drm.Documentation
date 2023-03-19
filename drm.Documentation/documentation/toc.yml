@@ -1,0 +1,28 @@
+- name: What is Dynamics Resource Management (DRM)
+  href: how-does-it-work.md
+- name: Templates
+  items:
+    - name: DRM template file
+      href: drm-template-file.md
+    - name: DRM parameter file
+      href: drm-parameter-file.md
+    - name: How templates connect to Dynamics environments
+      href: how-templates-connect-to-dynamics-environments.md
+    - name: Manage template connections
+      href: manage-template-conections.md
+    - name: Property metadata
+      href: property-metadata.md
+    - name: Template functions
+      href: available-template-functions.md
+    - name: Using the dependsOn property
+      href: using-the-dependson-property.md
+    - name: Using OData syntax in DRM Templates
+      href: using-odata-syntax-in-drm-templates.md
+- name: DRM PowerShell 
+  items:
+    - name: Connect-CrmOnline cmdlet
+      href: connect-crmonline-pwsh.md
+    - name: New-DrmDeployment cmdlet
+      href: new-drmdeployment-pwsh.md
+    - name: New-DrmTemplate cmdlet
+      href: new-drmtemplate-pwsh.md

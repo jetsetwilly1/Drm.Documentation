@@ -1,0 +1,10 @@
+- name: CrmBaseEntity
+  items:
+    - name: default
+      href: ctcrmbaseentityDefault.md
+    - name: custom
+      href: ctcrmbaseentityCustom.md
+- name: PrincipalEntity
+  items:
+    - name: default
+      href: ctprincipal.md

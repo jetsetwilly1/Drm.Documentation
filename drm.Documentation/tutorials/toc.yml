@@ -1,0 +1,24 @@
+- name: Quickstart
+  href: quickstart.md
+- name: Install the PowerShell module
+  href: install-drm-powershell-module.md
+- name: Generate templates
+  href: generate-a-drm-template.md
+- name: Deploy templates
+  href: deploy-a-drm-template.md
+- name: Walkthroughs
+  items:
+    - name: Setup an Application Registration
+      href: setup-app-reg-connection.md
+    - name: Connect to Dynamics using a Bearer token
+      href: connect-to-dynamics-using-bearertoken.md
+    - name: Connect to Dynamics using an app registration
+      href: connect-to-dynamics-using-app-registration.md
+    - name: Connect to Dynamics using User Credentials
+      href: connect-to-dynamics-using-user-credentials.md
+    - name: Reference keyvault secrets in parameter files
+      href: reference-keyvault-secrets-in-templates.md
+    - name: Fetch Data using queries when deploying to your target environment
+      href: fetch-data-to-support-deployments.md
+    - name: Fetch data and generate dynamic lists
+      href: fetch-data-and-copy-to-your-templates.md
