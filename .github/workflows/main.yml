@@ -3,10 +3,11 @@ name: Publish Docs
 on:
     push:
         branches: [ main ]
+    workflow_dispatch:
 
 jobs:
   build_job:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     name: Build Docs
     steps:
     - uses: actions/checkout@v1
