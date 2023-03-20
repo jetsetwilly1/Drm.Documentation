@@ -1,6 +1,7 @@
 # Dynamics Resource Management (DRM) Templates
 
 Powershell Module: https://www.powershellgallery.com/packages/Drm.Templates.Powershell
+
 Official Documentation: https://docs.drmtemplates.io
 
 ## About DRM Templates
