@@ -1,0 +1,17 @@
+name: Publish Docs
+
+on:
+    push:
+        branches: [ main ]
+
+jobs:
+  build_job:
+    runs-on: ubuntu-latest
+    name: Build Docs
+    steps:
+    - uses: actions/checkout@v1
+    
+    - uses: nikeee/docfx-action@v1.0.0
+      name: Build Documentation
+      with:
+        args: drm.Documentation/docfx.json
