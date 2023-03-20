@@ -15,17 +15,6 @@ jobs:
     name: Build Docs
     steps:
     - uses: actions/checkout@v1
-    
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 6.0.x
-        
-    - name: Restore Dependencies
-      run: dotnet restore drm.Documentation.sln
-    
-    - name: Build
-      run: dotnet build drm.Documentation.sln --configuration Release --no-restore
       
     - uses: nikeee/docfx-action@v1.0.0
       name: Build Documentation
@@ -42,7 +31,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob upload-batch --account-name stdrmprddocs --auth-mode key -d '$web' -s .
+            az storage blob upload-batch --account-name stdrmprddocs --auth-mode key -d '$web' -s drm.Documentation/_site
         
     # Azure logout
     - name: logout
