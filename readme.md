@@ -2,7 +2,11 @@
 
 Powershell Module: https://www.powershellgallery.com/packages/Drm.Templates.Powershell
 
-Official Documentation: https://docs.drmtemplates.io
+Start creating templates quickly.
+
+Quickstart: https://docs.drmtemplates.io/tutorials/quickstart.html
+
+Generate templates using a simple powershell cmd: https://docs.drmtemplates.io/tutorials/generate-a-drm-template.html 
 
 ## About DRM Templates
 
