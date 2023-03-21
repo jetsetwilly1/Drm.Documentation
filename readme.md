@@ -1,5 +1,13 @@
 # Dynamics Resource Management (DRM) Templates
 
+Powershell Module: https://www.powershellgallery.com/packages/Drm.Templates.Powershell
+
+Start creating templates quickly.
+
+Quickstart: https://docs.drmtemplates.io/tutorials/quickstart.html
+
+Generate templates using a simple powershell cmd: https://docs.drmtemplates.io/tutorials/generate-a-drm-template.html 
+
 ## About DRM Templates
 
 Dynamics Resource Management Templates (DRM) was built with Devops Engineers and Dynamics developers in mind. Based on 
