@@ -1,23 +1,10 @@
----
-uid: default-crmbaseentity-reference
----
-
-# cT.crmbaseentity default template reference
+# drm.crmbaseentity custom template reference
 
 API Version: 2022-04-03
 
-cT.CrmBaseEntity type entities wraps many of the [Dynamics Web API entities](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/reference/entitytypes?view=dataverse-latest)
-
-For a full list of supported Dynamics web api entities that can be used by DRM Templates 
-[click here](xref:supported-web-entities).
-
 ## Template format
 
-To target a drm.crmbaseentity/\{collection\}, add the following JSON to your template.
-
-> [!NOTE]
-> The placeholder {collection} should be replaced by any of the names from this [list](xref:supported-web-entities) 
-depending on which Dynamics entity you are targeting.
+To update drm.crmbaseentity/custom values, add the following JSON to the resources section of your template.
 
 ```json
 {
@@ -42,13 +29,15 @@ depending on which Dynamics entity you are targeting.
         "filter": "string"
      }
    },
-   "type":"drm.crmbaseentity/{collection}",
+   "type":"drm.crmbaseentity/custom",
    "apiVersion":"2023-01-09",
    "name":"string",
    "properties":{
+      "entityname": "string",
       "data":[
          {
-            ...
+            "uniqueId": "string",
+            "column1": "string"
          }
       ]
    }
@@ -60,16 +49,22 @@ depending on which Dynamics entity you are targeting.
 
 The following tables describe the values you need to set in the schema.
 
-### drm.crmbaseentity/\{collection\} object
+### drm.crmbaseentity/custom object
 
 | Name       | Type   | Required | Value                                                                                                    |
 |-|-|-|-|
-| targetenvironment | object | Yes | Object containing Dynamics connection information.
-| queries | object | No | Object containing queries to run against your target Dynamics environment. [queries object](#queries-object) |
+| targetenvironment | object | Yes | Object containing Dynamics connection information <br> [TargetEnvironment object](xref:target-dynamics-instance)
 | name       | string | Yes      | The name of the resource block being deployed.  Used to easily identify the resource in deployment logs. |
-| type       | enum   | Yes      | drm.crmbaseentity/\{collection\} Where collection is one of the known collection names.                                                               |
-| apiVersion | enum   | Yes      | 2023-01-09                                                                                            |
-| properties | object | Yes      | The parameters used to patch a collection <br> [\{data\} object](#data-parameters) |
+| type       | enum   | Yes      | drm.crmbaseentity/custom                                                                |
+| apiVersion | enum   | Yes      | 2023-01-09                                                                                             |
+| properties | object | Yes      | The parameters used to patch custom entities <br> [CustomParameters object](#customparameters-object)                  |
+
+### CustomParameters object
+
+| Name   | Type  | Required | Value                                                    |
+|-|-|-|-|
+| entityname | string | Yes | The name of the entity you are targetting. |
+| data | object | Yes | Each object should represent a 'row' of data you are patching into the entity.  Please see the example [here](xref:example-manage-custom-entities) on how to add data. |
 
 ### queries object
 
@@ -83,13 +78,6 @@ The following tables describe the values you need to set in the schema.
 |-|-|-|-|
 | entity | string | Yes | The name of the entity you are targeting. See this [list](xref:supported-web-entities) for a collection of supported entities |
 | filter | string | Yes | The Odata based filter string.|
-
-### data parameters
-
-| Name | Type | Required | Value |
-|-|-|-|-|
-| data | array | Yes | An array of the entity rows to update. See this [list](xref:supported-web-entities) for a collection of supported entities.  |
-
 
 ### targetenvironment object
 

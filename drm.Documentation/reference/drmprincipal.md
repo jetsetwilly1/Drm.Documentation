@@ -1,10 +1,19 @@
-# cT.crmbaseentity custom template reference
+# drm.principal default template reference
 
 API Version: 2022-04-03
 
+drm.principal type entities wraps the following principle entities
+
+- [teams](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/reference/team?view=dataverse-latest)
+- [systemusers](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/reference/systemuser?view=dataverse-latest)
+
+
+
 ## Template format
 
-To update drm.crmbaseentity/custom values, add the following JSON to the resources section of your template.
+To target a drm.principal/\{collection\}, add the following JSON to your template.
+
+\{collection\} can be 'teams' or 'systemusers'
 
 ```json
 {
@@ -29,15 +38,13 @@ To update drm.crmbaseentity/custom values, add the following JSON to the resourc
         "filter": "string"
      }
    },
-   "type":"drm.crmbaseentity/custom",
+   "type":"drm.principal/{collection}",
    "apiVersion":"2023-01-09",
    "name":"string",
    "properties":{
-      "entityname": "string",
       "data":[
          {
-            "uniqueId": "string",
-            "column1": "string"
+            ...
          }
       ]
    }
@@ -49,22 +56,16 @@ To update drm.crmbaseentity/custom values, add the following JSON to the resourc
 
 The following tables describe the values you need to set in the schema.
 
-### drm.crmbaseentity/custom object
+### drm.principal/\{collection\} object
 
 | Name       | Type   | Required | Value                                                                                                    |
 |-|-|-|-|
-| targetenvironment | object | Yes | Object containing Dynamics connection information <br> [TargetEnvironment object](xref:target-dynamics-instance)
+| targetenvironment | object | Yes | Object containing Dynamics connection information.
+| queries | object | No | Object containing queries to run against your target Dynamics environment. [queries object](#queries-object) |
 | name       | string | Yes      | The name of the resource block being deployed.  Used to easily identify the resource in deployment logs. |
-| type       | enum   | Yes      | drm.crmbaseentity/custom                                                                |
-| apiVersion | enum   | Yes      | 2023-01-09                                                                                             |
-| properties | object | Yes      | The parameters used to patch custom entities <br> [CustomParameters object](#customparameters-object)                  |
-
-### CustomParameters object
-
-| Name   | Type  | Required | Value                                                    |
-|-|-|-|-|
-| entityname | string | Yes | The name of the entity you are targetting. |
-| data | object | Yes | Each object should represent a 'row' of data you are patching into the entity.  Please see the example [here](xref:example-manage-custom-entities) on how to add data. |
+| type       | enum   | Yes      | drm.crmbaseentity/\{collection\} Where collection is one of the known collection names.                                                               |
+| apiVersion | enum   | Yes      | 2023-01-09                                                                                            |
+| properties | object | Yes      | The parameters used to patch a collection <br> [\{collection\} object](#collection-parameters) |
 
 ### queries object
 
@@ -78,6 +79,13 @@ The following tables describe the values you need to set in the schema.
 |-|-|-|-|
 | entity | string | Yes | The name of the entity you are targeting. See this [list](xref:supported-web-entities) for a collection of supported entities |
 | filter | string | Yes | The Odata based filter string.|
+
+### collection parameters
+
+| Name | Type | Required | Value |
+|-|-|-|-|
+|\{collection\}|array|Yes| An array of the entity rows to update. See this [teams](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/reference/team?view=dataverse-latest) or [systemusers](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/reference/systemuser?view=dataverse-latest)  |
+
 
 ### targetenvironment object
 
