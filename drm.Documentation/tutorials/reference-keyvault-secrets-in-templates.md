@@ -17,7 +17,7 @@ will retrieve the secret value for ```DrmClientSecret```
 
 ``` json
 { 
-   "$schema": "https://drmtemplatesprod.z33.web.core.windows.net/schemas/2021-03-01/deploymentParameters.json#", 
+   "$schema": "https://schemas.drmtemplates.io/2021-03-01/deploymentParameters.json#", 
    "contentVersion": "1.0.0.0", 
    "parameters": { 
       "dynamicsBaseUrl": { 
@@ -73,7 +73,7 @@ Create a file called drmqueue.json and copy the json below.
 
 ```json
 {
-  "$schema": "https://drmtemplatesprod.z33.web.core.windows.net/schemas/2021-03-01/deploymentTemplate.json#",
+  "$schema": "https://schemas.drmtemplates.io/2021-03-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
     "secretQueueName": { 
@@ -106,7 +106,7 @@ Create a file called drmqueue.params.json and copy the json below.
 
 ```json
 { 
-   "$schema": "https://drmtemplatesprod.z33.web.core.windows.net/schemas/2021-03-01/deploymentParameters.json#", 
+   "$schema": "https://schemas.drmtemplates.io/2021-03-01/deploymentParameters.json#", 
    "contentVersion": "1.0.0.0", 
    "parameters": { 
       "secretQueueName": { 

@@ -41,7 +41,7 @@ The child business unit then sets its ```parentbusinessunitid``` property to the
 
 ```json
 { 
-  "$schema": "https://drmtemplatesprod.z33.web.core.windows.net/schemas/2021-03-01/deploymentTemplate.json#",
+  "$schema": "https://schemas.drmtemplates.io/2021-03-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0", 
   "parameters": { 
      "rootBUId": {
@@ -88,7 +88,7 @@ The parameters file will look as below
 
 ```json
 { 
-  "$schema": "https://drmtemplatesprod.z33.web.core.windows.net/schemas/2021-03-01/deploymentParameters.json#", 
+  "$schema": "https://schemas.drmtemplates.io/2021-03-01/deploymentParameters.json#", 
   "contentVersion": "1.0.0.0", 
   "parameters": { 
      "rootBUId": { 

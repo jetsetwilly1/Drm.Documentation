@@ -23,7 +23,7 @@ The best approach for maintainability is to setup the connection object as a var
 
 ``` json
 { 
-  "$schema": "https://drmtemplatesprod.z33.web.core.windows.net/schemas/2021-03-01/deploymentTemplate.json#",
+  "$schema": "https://schemas.drmtemplates.io/2021-03-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0", 
   "parameters": { 
      "dynamicsTenantId": { 
@@ -74,7 +74,7 @@ dynamicsBaseUrl and drmclientSecret remain as parameters because they could chan
 
 ``` json
 { 
-  "$schema": "https://drmtemplatesprod.z33.web.core.windows.net/schemas/2021-03-01/deploymentTemplate.json#",
+  "$schema": "https://schemas.drmtemplates.io/2021-03-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0", 
   "parameters": {
      "dynamicsBaseUrl": { 
@@ -112,7 +112,7 @@ In this example we are setting the username directly in the variable but this co
 
 ```json
 { 
-  "$schema": "https://drmtemplatesprod.z33.web.core.windows.net/schemas/2021-03-01/deploymentTemplate.json#",
+  "$schema": "https://schemas.drmtemplates.io/2021-03-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0", 
   "parameters": { 
      "dynamicsTenantId": { 

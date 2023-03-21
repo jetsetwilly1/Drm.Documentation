@@ -56,7 +56,7 @@ and saves the generated template to a file named "queues_template.json" in the "
 
 ```json
 {
-  "$schema": "https://drmtemplatesprod.z33.web.core.windows.net/schemas/2021-03-01/deploymentTemplate.json#",
+  "$schema": "https://schemas.drmtemplates.io/2021-03-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
     "drmclientId": {

@@ -13,7 +13,7 @@ A parameter file uses the following format:
 
 ```json
 { 
-  "$schema": "https://drmtemplatesprod.z33.web.core.windows.net/Schemas/2021-03-01/deploymentParameters.json#", 
+  "$schema": "https://schemas.drmtemplates.io/2021-03-01/deploymentParameters.json#", 
   "contentVersion": "1.0.0.0", 
   "parameters": { 
      "<first-parameter-name>": { 
