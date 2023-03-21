@@ -90,7 +90,7 @@ The whole template should now look like something like this.
         "bearerToken": "<Enter token here>",
         "url": "<Your Dynamics URL>"
       },
-      "type": "cT.crmbaseentity/queues",
+      "type": "drm.crmbaseentity/queues",
       "apiVersion": "2023-01-09",
       "name": "GeneratedTemplateFor_queues",
       "properties": {

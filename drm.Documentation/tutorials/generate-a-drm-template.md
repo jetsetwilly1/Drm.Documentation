@@ -90,7 +90,7 @@ The template returned will look something like below.
         "bearerToken": "<Enter token here>",
         "url": "<Dynamics environment url>"
       },
-      "type": "cT.principal/teams",
+      "type": "drm.principal/teams",
       "apiVersion": "2023-01-09",
       "name": "GeneratedTemplateFor_teams",
       "properties": {
@@ -138,7 +138,7 @@ The resulting template would look something like.
         "bearerToken": "<Enter token here>",
         "url": "<Dynamics environment url>"
       },
-      "type": "cT.principal/teams",
+      "type": "drm.principal/teams",
       "apiVersion": "2023-01-09",
       "name": "GeneratedTemplateFor_teams",
       "properties": {
@@ -176,7 +176,7 @@ This will output a template like this
         "bearerToken": "<Enter token here>",
         "url": "https://orgafd36c6e.crm4.dynamics.com/"
       },
-      "type": "cT.principal/teams",
+      "type": "drm.principal/teams",
       "apiVersion": "2023-01-09",
       "name": "GeneratedTemplateFor_teams",
       "properties": {

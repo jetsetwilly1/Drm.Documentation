@@ -15,7 +15,7 @@ from the 'teamsquery' query and create an object for each member of the team.
 ```json
 { 
 ...  
-  "type": "cT.crmbaseentity/queues", 
+  "type": "drm.crmbaseentity/queues", 
   "apiVersion": "2023-01-09", 
   "queries": {
      "teamsquery":{ 
@@ -60,7 +60,7 @@ would be added to the queue as members.
 ```json
 { 
 ...  
-  "type": "cT.crmbaseentity/queues", 
+  "type": "drm.crmbaseentity/queues", 
   "apiVersion": "2023-01-09", 
   "queries": {
      "teamsquery":{ 
@@ -113,7 +113,7 @@ the required property.
 ```json
 { 
 ...  
-  "type": "cT.crmbaseentity/teams", 
+  "type": "drm.crmbaseentity/teams", 
   "apiVersion": "2023-01-09", 
   "queries": {
      "teamsquery": {

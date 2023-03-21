@@ -82,7 +82,7 @@ and saves the generated template to a file named "queues_template.json" in the "
         },
         "url": "https://demo.crm4.dynamics.com/"
       },
-      "type": "cT.crmbaseentity/queues",
+      "type": "drm.crmbaseentity/queues",
       "apiVersion": "2023-01-09",
       "name": "GeneratedTemplateFor_queues",
       "properties": {

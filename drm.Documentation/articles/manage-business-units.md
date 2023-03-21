@@ -61,7 +61,7 @@ The child business unit then sets its ```parentbusinessunitid``` property to the
   "resources": [ 
      { 
        "targetenvironment": "[variables('dynamicsCredentials')]", 
-       "type": "cT.crmbaseentity/businessunits", 
+       "type": "drm.crmbaseentity/businessunits", 
        "apiVersion": "2023-01-09", 
        "name": "DEMO_BusinessUnits", 
        "properties": { 

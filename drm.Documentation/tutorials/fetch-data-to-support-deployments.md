@@ -17,7 +17,7 @@ entity by businessunitid_value and name. The result is then used to associate th
 ```json
 { 
 ...  
-  "type": "cT.crmbaseentity/teams", 
+  "type": "drm.crmbaseentity/teams", 
   "apiVersion": "2023-01-09", 
   "queries": {
      "adminRoleId": {
@@ -54,7 +54,7 @@ Lets take a closer look at the queries block
 ```json
 { 
 ...  
-  "type": "cT.crmbaseentity/teams", 
+  "type": "drm.crmbaseentity/teams", 
   "apiVersion": "2023-01-09", 
   "queries": {
      "adminRoleId": {

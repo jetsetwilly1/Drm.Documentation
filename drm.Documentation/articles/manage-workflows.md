@@ -27,7 +27,7 @@ its state to 'draft'
 ```json
 {
   "targetenvironment": "[variables('dynamicsCredentials')]",
-  "type": "cT.crmbaseentity/workflows",
+  "type": "drm.crmbaseentity/workflows",
   "apiVersion": "2022-04-03",
   "name": "CVS_Workflows_Turn_Off",
   "properties": {

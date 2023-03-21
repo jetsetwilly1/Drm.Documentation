@@ -36,7 +36,7 @@ require parametrisation.
         "bearerToken": "<Enter token here>",
         "url": "<Your Dynamics url>"
       },
-      "type": "cT.crmbaseentity/documenttemplates",
+      "type": "drm.crmbaseentity/documenttemplates",
       "apiVersion": "2023-01-09",
       "name": "GeneratedTemplateFor_documenttemplates",
       "properties": {

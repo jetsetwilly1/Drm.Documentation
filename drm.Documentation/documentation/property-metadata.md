@@ -49,7 +49,7 @@ Lets look at an example template for managing queues.
   "resources": [
     {
       "targetenvironment": ...,
-      "type": "cT.crmbaseentity/queues",
+      "type": "drm.crmbaseentity/queues",
       "apiVersion": "2023-01-09",
       "name": "Demo_Queues",
       "properties": {

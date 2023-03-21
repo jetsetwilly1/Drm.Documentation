@@ -25,7 +25,7 @@ For each Dynamics environment you are deploying to, you will need to identify th
 ```json
 {
     "targetenvironment": "[variables('dynamicsCredentials')]",
-    "type": "cT.crmbaseentity/organizations",
+    "type": "drm.crmbaseentity/organizations",
     "apiVersion": "2023-01-09",
     "name": "DEMO_OrgSettings",
     "properties": {

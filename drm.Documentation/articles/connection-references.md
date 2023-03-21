@@ -95,7 +95,7 @@ suit your requirements.
         },
         "url": "<Your dynamics url>"
       },
-      "type": "cT.crmbaseentity/connectionreferences",
+      "type": "drm.crmbaseentity/connectionreferences",
       "apiVersion": "2023-01-09",
       "name": "GeneratedTemplateFor_connectionreferences",
       "properties": {

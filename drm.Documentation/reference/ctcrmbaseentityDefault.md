@@ -13,7 +13,7 @@ For a full list of supported Dynamics web api entities that can be used by DRM T
 
 ## Template format
 
-To target a ct.crmbaseentity/\{collection\}, add the following JSON to your template.
+To target a drm.crmbaseentity/\{collection\}, add the following JSON to your template.
 
 > [!NOTE]
 > The placeholder {collection} should be replaced by any of the names from this [list](xref:supported-web-entities) 
@@ -42,7 +42,7 @@ depending on which Dynamics entity you are targeting.
         "filter": "string"
      }
    },
-   "type":"cT.crmbaseentity/{collection}",
+   "type":"drm.crmbaseentity/{collection}",
    "apiVersion":"2023-01-09",
    "name":"string",
    "properties":{
@@ -60,14 +60,14 @@ depending on which Dynamics entity you are targeting.
 
 The following tables describe the values you need to set in the schema.
 
-### cT.crmbaseentity/\{collection\} object
+### drm.crmbaseentity/\{collection\} object
 
 | Name       | Type   | Required | Value                                                                                                    |
 |-|-|-|-|
 | targetenvironment | object | Yes | Object containing Dynamics connection information.
 | queries | object | No | Object containing queries to run against your target Dynamics environment. [queries object](#queries-object) |
 | name       | string | Yes      | The name of the resource block being deployed.  Used to easily identify the resource in deployment logs. |
-| type       | enum   | Yes      | cT.crmbaseentity/\{collection\} Where collection is one of the known collection names.                                                               |
+| type       | enum   | Yes      | drm.crmbaseentity/\{collection\} Where collection is one of the known collection names.                                                               |
 | apiVersion | enum   | Yes      | 2023-01-09                                                                                            |
 | properties | object | Yes      | The parameters used to patch a collection <br> [\{data\} object](#data-parameters) |
 

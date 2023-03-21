@@ -11,7 +11,7 @@ cT.principal type entities wraps the following principle entities
 
 ## Template format
 
-To target a ct.principal/\{collection\}, add the following JSON to your template.
+To target a drm.principal/\{collection\}, add the following JSON to your template.
 
 \{collection\} can be 'teams' or 'systemusers'
 
@@ -38,7 +38,7 @@ To target a ct.principal/\{collection\}, add the following JSON to your template
         "filter": "string"
      }
    },
-   "type":"cT.principal/{collection}",
+   "type":"drm.principal/{collection}",
    "apiVersion":"2023-01-09",
    "name":"string",
    "properties":{
@@ -56,14 +56,14 @@ To target a ct.principal/\{collection\}, add the following JSON to your template
 
 The following tables describe the values you need to set in the schema.
 
-### cT.crmbaseentity/\{collection\} object
+### drm.principal/\{collection\} object
 
 | Name       | Type   | Required | Value                                                                                                    |
 |-|-|-|-|
 | targetenvironment | object | Yes | Object containing Dynamics connection information.
 | queries | object | No | Object containing queries to run against your target Dynamics environment. [queries object](#queries-object) |
 | name       | string | Yes      | The name of the resource block being deployed.  Used to easily identify the resource in deployment logs. |
-| type       | enum   | Yes      | cT.crmbaseentity/\{collection\} Where collection is one of the known collection names.                                                               |
+| type       | enum   | Yes      | drm.crmbaseentity/\{collection\} Where collection is one of the known collection names.                                                               |
 | apiVersion | enum   | Yes      | 2023-01-09                                                                                            |
 | properties | object | Yes      | The parameters used to patch a collection <br> [\{collection\} object](#collection-parameters) |
 

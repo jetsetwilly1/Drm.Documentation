@@ -20,7 +20,7 @@ within a template.
 
 ```json
 ... },
-  "dependsOn": ["cT.crmbaseentity/roles/DEMO_Roles"]
+  "dependsOn": ["drm.crmbaseentity/roles/DEMO_Roles"]
 } ...
 ```
 
@@ -40,7 +40,7 @@ dependsOn property will force this order.
 "resources": [ 
   { 
     "targetenvironment":"[variables('dynamicsCredentials')]",
-    "type": "cT.crmbaseentity/roles",
+    "type": "drm.crmbaseentity/roles",
     "apiVersion": "2023-01-09",
     "name": "DEMO_Roles",
     "properties": { 
@@ -55,7 +55,7 @@ dependsOn property will force this order.
   },
   { 
     "targetenvironment": "[variables('dynamicsCredentials')]",
-    "type": "cT.principal/teams", 
+    "type": "drm.principal/teams", 
     "apiVersion": "2023-01-09", 
     "name": "DEMO_Teams", 
     "properties": {
@@ -80,7 +80,7 @@ dependsOn property will force this order.
         } 
       ]
     },
-    "dependsOn": ["cT.crmbaseentity/roles/DEMO_Roles"] 
+    "dependsOn": ["drm.crmbaseentity/roles/DEMO_Roles"] 
    }
 ]
 ```

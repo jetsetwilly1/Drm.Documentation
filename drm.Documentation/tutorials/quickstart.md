@@ -84,7 +84,7 @@ Create a new file called 'quickstartdrm.json' and copy the json template below.
   "resources": [ 
      {
         "name": "Basic Team",
-        "type": "cT.principal/teams",
+        "type": "drm.principal/teams",
         "apiVersion": "2023-01-09",
         "targetenvironment": {
             "bearerToken": "<paste your bearer token here>",

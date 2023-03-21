@@ -97,7 +97,7 @@ Your template will look something like this.
         },
         "url": "<your dynamics url>"
       },
-      "type": "cT.crmbaseentity/queues",
+      "type": "drm.crmbaseentity/queues",
       "apiVersion": "2023-01-09",
       "name": "GeneratedTemplateFor_queues",
       "properties": {

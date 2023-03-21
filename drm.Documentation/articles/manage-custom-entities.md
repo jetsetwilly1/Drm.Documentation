@@ -32,7 +32,7 @@ To patch the cfg_group the template will look like this
 ```json
 { 
   "targetenvironment": { ... }, 
-  "type": "cT.crmbaseentity/custom", 
+  "type": "drm.crmbaseentity/custom", 
   "apiVersion": "2023-01-09", 
   "name": "configurationgroup", 
   "properties": { 
@@ -52,7 +52,7 @@ And to add two cfg_items we would do this.
 ```json
 { 
   "targetenvironment": { ... }, 
-  "type": "cT.crmbaseentity/custom",
+  "type": "drm.crmbaseentity/custom",
   "apiVersion": "2023-01-09", 
   "name": "configurationitems", 
   "properties": { 
@@ -72,7 +72,7 @@ And to add two cfg_items we would do this.
       },
     ]
   },
-  "dependson":[ "cT.crmbaseentity/custom/configurationgroup" ]
+  "dependson":[ "drm.crmbaseentity/custom/configurationgroup" ]
 }
 ```
 

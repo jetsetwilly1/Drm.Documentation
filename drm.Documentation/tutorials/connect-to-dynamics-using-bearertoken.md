@@ -16,7 +16,7 @@ Below is how a bearer token might look like in a template.
      "bearerToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c...",
      "url":"https://{yourdynamicsinstance}.crm11.dynamics.com" 
   }, 
-  "type":"cT.crmbaseentity/queues", 
+  "type":"drm.crmbaseentity/queues", 
   "apiVersion":"2023-01-09", 
   ... 
 }
@@ -99,7 +99,7 @@ Create a new file called 'bearertokendrm.json' and copy the json template below.
         "bearerToken": "<paste your bearer token here>",
         "url": "<dynamics url>"
       },
-      "type": "cT.crmbaseentity/accounts",
+      "type": "drm.crmbaseentity/accounts",
       "apiVersion": "2023-01-09",
       "name": "DemoBearerToken_accounts",
       "properties": {

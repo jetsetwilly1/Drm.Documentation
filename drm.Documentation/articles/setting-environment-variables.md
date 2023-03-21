@@ -22,7 +22,7 @@ You can set the value of ```new_TestVariable``` with the following template.
 ```json
 {
       "targetenvironment": "[variables('dynamicsCredentials')]",
-      "type": "cT.crmbaseentity/environmentvariablevalues",
+      "type": "drm.crmbaseentity/environmentvariablevalues",
       "apiVersion": "2023-01-09",
       "name": "DEMO_Environment_Variables",
       "properties": {
@@ -53,12 +53,12 @@ Instead of creating/updating a 'current value' for an environment variable, you 
 update the default value.
 
 This is what your template would look like. To update a default value for an environment variable
-the resource type needs to be ```cT.crmbaseentity/environmentvariabledefinitions```.
+the resource type needs to be ```drm.crmbaseentity/environmentvariabledefinitions```.
 
 ```json
 {
       "targetenvironment": "[variables('dynamicsCredentials')]",
-      "type": "cT.crmbaseentity/environmentvariabledefinitions",
+      "type": "drm.crmbaseentity/environmentvariabledefinitions",
       "apiVersion": "2023-01-09",
       "name": "DEMO_Environment_Variables",
       "properties": {

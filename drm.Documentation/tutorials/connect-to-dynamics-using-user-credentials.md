@@ -26,7 +26,7 @@ for use then the connection block would look something like below.
      },
      "url": "https://{yourdynamicsinstance}.crm11.dynamics.com" 
   }, 
-  "type": "cT.crmbaseentity/workflows", 
+  "type": "drm.crmbaseentity/workflows", 
   "apiVersion": "2023-01-09", 
   ...
 }
@@ -69,7 +69,7 @@ Create a new file called 'usercredsdrm.json' and copy the json template below.
         },
         "url": "<your dynamics url>"
       },
-      "type": "cT.crmbaseentity/contacts",
+      "type": "drm.crmbaseentity/contacts",
       "apiVersion": "2023-01-09",
       "name": "DrmDemo_contacts",
       "properties": {

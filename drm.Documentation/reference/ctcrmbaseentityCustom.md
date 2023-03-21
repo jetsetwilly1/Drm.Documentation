@@ -4,7 +4,7 @@ API Version: 2022-04-03
 
 ## Template format
 
-To update cT.crmbaseentity/custom values, add the following JSON to the resources section of your template.
+To update drm.crmbaseentity/custom values, add the following JSON to the resources section of your template.
 
 ```json
 {
@@ -29,7 +29,7 @@ To update cT.crmbaseentity/custom values, add the following JSON to the resource
         "filter": "string"
      }
    },
-   "type":"cT.crmbaseentity/custom",
+   "type":"drm.crmbaseentity/custom",
    "apiVersion":"2023-01-09",
    "name":"string",
    "properties":{
@@ -49,13 +49,13 @@ To update cT.crmbaseentity/custom values, add the following JSON to the resource
 
 The following tables describe the values you need to set in the schema.
 
-### cT.crmbaseentity/custom object
+### drm.crmbaseentity/custom object
 
 | Name       | Type   | Required | Value                                                                                                    |
 |-|-|-|-|
 | targetenvironment | object | Yes | Object containing Dynamics connection information <br> [TargetEnvironment object](xref:target-dynamics-instance)
 | name       | string | Yes      | The name of the resource block being deployed.  Used to easily identify the resource in deployment logs. |
-| type       | enum   | Yes      | cT.crmbaseentity/custom                                                                |
+| type       | enum   | Yes      | drm.crmbaseentity/custom                                                                |
 | apiVersion | enum   | Yes      | 2023-01-09                                                                                             |
 | properties | object | Yes      | The parameters used to patch custom entities <br> [CustomParameters object](#customparameters-object)                  |
 

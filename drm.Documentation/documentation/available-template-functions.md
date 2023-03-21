@@ -93,7 +93,7 @@ the first roleid.
 ```json
 { 
 ...  
-  "type": "cT.crmbaseentity/teams", 
+  "type": "drm.crmbaseentity/teams", 
   "apiVersion": "2023-01-09", 
   "queries": {
      "roleIds": {
