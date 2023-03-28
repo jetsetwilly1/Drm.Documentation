@@ -115,7 +115,7 @@ drm metadata objects are used to describe what the resource block is maintaining
   "resources": [ 
     {
       "targetenvironment": "[variables('dynamicsCredentials')]", 
-      "type": "drm.crmbaseentity/systemusers", 
+      "type": "drm.principal/systemusers", 
       "apiVersion": "2023-01-09", 
       "name": "DEMO_ApplicationUser", 
       "properties": { 
