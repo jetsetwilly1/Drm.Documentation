@@ -4,7 +4,7 @@ uid: default-crmbaseentity-reference
 
 # drm.crmbaseentity default template reference
 
-API Version: 2022-04-03
+API Version: 2023-01-09
 
 drm.CrmBaseEntity type entities wraps many of the [Dynamics Web API entities](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/reference/entitytypes?view=dataverse-latest)
 

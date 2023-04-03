@@ -1,6 +1,6 @@
 # drm.crmbaseentity custom template reference
 
-API Version: 2022-04-03
+API Version: 2023-01-09
 
 ## Template format
 

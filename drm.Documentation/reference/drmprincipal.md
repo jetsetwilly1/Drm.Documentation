@@ -1,6 +1,6 @@
 # drm.principal default template reference
 
-API Version: 2022-04-03
+API Version: 2023-01-09
 
 drm.principal type entities wraps the following principle entities
 
