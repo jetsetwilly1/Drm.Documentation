@@ -2,11 +2,32 @@
 
 Powershell Module: https://www.powershellgallery.com/packages/Drm.Templates.Powershell
 
-Start creating templates quickly.
+## Documentation
 
-Quickstart: https://docs.drmtemplates.io/tutorials/quickstart.html
+Documentation is hosted at https://docs.drmtemplates.io
+
+## Contribute
+
+Please feel free to contribute to the documentation.
+
+The documentation is markdown based and compiled using DocFx.
+
+Create a branch, make your changes, once the PR is approved an action will be triggered and the documentation updated.
+
+Start creating templates quickly. https://docs.drmtemplates.io/tutorials/quickstart.html
 
 Generate templates using a simple powershell cmd: https://docs.drmtemplates.io/tutorials/generate-a-drm-template.html 
+
+Here's some of the how-to's already written
+
+- [Manage application users](https://docs.drmtemplates.io/articles/manage-application-user-accounts.html)
+- [Manage Business Units](https://docs.drmtemplates.io/articles/manage-business-units.html)
+- [Connection References](https://docs.drmtemplates.io/articles/connection-references.html)
+- [Setting Environment Variables](https://docs.drmtemplates.io/articles/setting-environment-variables.html)
+- [Manage Organisation Settings](https://docs.drmtemplates.io/articles/setting-organisation-settings.html)
+- [Transfer Word Document Templates](https://docs.drmtemplates.io/articles/document-templates.html)
+- [Manage workflows](https://docs.drmtemplates.io/articles/manage-workflows.html)
+- [Manage Custom Entities](https://docs.drmtemplates.io/articles/manage-custom-entities.html)
 
 ## About DRM Templates
 
@@ -23,10 +44,3 @@ Not only can you manage basic properties of these entities but you can also appl
 All entities are documented by Microsoft [here](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/reference/entitytypes?view=dataverse-latest) enabling you to get to grips with any 
 entity you might need to configure.
 
-## Contribute to the documentation
-
-Please feel free to contribute to the documentation.
-
-The documentation is markdown based and compiled using DocFx.
-
-Create a branch, make your changes, once the PR is approved an action will be triggered and the documentation updated.
