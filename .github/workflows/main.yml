@@ -31,7 +31,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob upload-batch --account-name stdrmprddocs --auth-mode key -d '$web' -s drm.Documentation/_site
+            az storage blob upload-batch --account-name stdrmprddocs --auth-mode key -d '$web' -s drm.Documentation/_site --overwrite
         
     # Azure logout
     - name: logout
