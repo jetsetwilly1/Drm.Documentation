@@ -31,16 +31,41 @@ Here's some of the how-to's already written
 
 ## About DRM Templates
 
-Dynamics Resource Management Templates (DRM) was built with Devops Engineers and Dynamics developers in mind. Based on 
-ARM Templates, they are constructed in the same way and offer many of the same functionality.
+Dynamics Resource Management Templates (DRM) was built with Devops 
+Engineers and Dynamics developers in mind. Based on ARM Templates, 
+they are constructed in the same way and offer many of the same 
+functionality.
 
-Managing multiple Dynamics environments can be challenging but by using this tool, 
-environments can be easily maintained and controlled all through your automation pipelines.
+Managing multiple Dynamics environments can be challenging but by 
+using this tool, environments can be easily maintained and controlled
+all through your automation pipelines.
 
-DRM Templates allow you to 'PATCH' entities with your configuration. This includes custom entities. 
-A common scenario for a Dynamics environment is to build Queues and Teams for example. 
-Not only can you manage basic properties of these entities but you can also apply members to your queues and teams.
+DRM Templates allow you to 'PATCH' entities with your configuration.
+This includes custom entities. A common scenario for a Dynamics 
+environment is to manage environment variables or build Queues and Teams. 
+Not only can you manage basic properties of these entities but
+you can also apply members to your queues and teams.
 
-All entities are documented by Microsoft [here](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/reference/entitytypes?view=dataverse-latest) enabling you to get to grips with any 
-entity you might need to configure.
+Generate templates using the `New-DrmTemplate` cmd
 
+Deploy templates using the `New-DrmDeployment` cmd
+
+Below is an example template for an environmentvariablevalue.
+
+```json
+{
+      "targetenvironment": "[variables('dynamicsCredentials')]",
+      "type": "drm.crmbaseentity/environmentvariablevalues",
+      "apiVersion": "2023-01-09",
+      "name": "DEMO_Environment_Variables",
+      "properties": {
+        "data": [
+          {
+            "environmentvariablevalueid": "634b1a5e-0775-4de0-8cdd-9a5fdb4ac21f",
+            "schemaname": "new_TestVariable",
+            "value": "Hello Drm Current Value"
+          }
+        ]
+      }
+    }
+```
