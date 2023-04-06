@@ -14,9 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Build Docs
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
       
-    - uses: ./.github/actions/docfx@v1
+    - uses: ./.github/actions/docfx
       name: Build Documentation
       with:
         args: drm.Documentation/docfx.json
