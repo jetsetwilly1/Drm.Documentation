@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
       
-    - uses: jetsetwilly1/docfx-action@v1.0.5
+    - uses: jetsetwilly1/docfx-action@v1.0.6
       name: Build Documentation
       with:
         args: drm.Documentation/docfx.json
