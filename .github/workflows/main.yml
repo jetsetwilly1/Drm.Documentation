@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
       
-    - uses: .github/actions/docfx@v1
+    - uses: ./.github/actions/docfx@v1
       name: Build Documentation
       with:
         args: drm.Documentation/docfx.json
