@@ -121,6 +121,8 @@ Create a new file called 'bearertokendrm.json' and copy the json template below.
 Replace the ```paste your bearer token here``` text with the bearer token you copied from the 
 previous step and save the template.
 
+Replace the ```dynamics url``` with the url of your target Dynamics environment.
+
 In your PowerShell window run the following command to deploy your template.
 
 ```powershell

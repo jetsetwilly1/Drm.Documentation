@@ -75,6 +75,60 @@ Another example below would return all document templates that equal 'Drm Docume
 New-DrmTemplate -entityName documenttemplates -filter '$filter=name eq ''Drm Document'''
 ```
 
+### Generate templates for automation
+
+To include predefined parameters and a pre-configured target environment block in
+the template generated, you just need to add the switch ```-SetupTemplateForAutomation``` when running the cmdlet.
+
+This is an example for generating a template for queues
+```powershell
+New-DrmTemplate -entityName queues -filter '$select=name&$top=1' -SetupTemplateForAutomation
+```
+
+```json
+{
+  "$schema": "https://schemas.drmtemplates.io/2021-03-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "drmclientId": {
+      "type": "string",
+      "defaultValue": "00000000-0000-0000-0000-000000000000"
+    },
+    "drmclientSecret": {
+      "type": "string",
+      "defaultValue": "00000000-0000-0000-0000-000000000000"
+    },
+    "dynamicsTenantId": {
+      "type": "string",
+      "defaultValue": "00000000-0000-0000-0000-000000000000"
+    }
+  },
+  "resources": [
+    {
+      "targetenvironment": {
+        "applicationCredentials": {
+          "clientId": "[parameters('drmclientid')]",
+          "clientSecret": "[parameters('drmclientSecret')]",
+          "tenantId": "[parameters('dynamicsTenantId')]"
+        },
+        "url": "<your dynamics url>"
+      },
+      "type": "drm.crmbaseentity/queues",
+      "apiVersion": "2023-01-09",
+      "name": "GeneratedTemplateFor_queues",
+      "properties": {
+        "data": [
+          {
+            "queueid": "33186e2b-9442-4d3b-8c50-cc777c1eeb9f",
+            "name": "Queue Demo"
+          }
+        ]
+      }
+    }
+  ]
+}
+```
+
 ### Examples
 
 #### Teams

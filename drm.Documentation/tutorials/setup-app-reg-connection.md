@@ -16,7 +16,7 @@ You will need an Azure subscription for application registration. A trial accoun
 
 ## Create the Application Registration in Azure
 
-First, lets create the application registration in your Azure tenant by following the
+Lets create the application registration in your Azure tenant by following the
 instructions here 
 
 https://docs.microsoft.com/en-us/power-apps/developer/data-platform/walkthrough-register-app-azure-active-directory#create-an-application-registration

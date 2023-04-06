@@ -12,7 +12,7 @@ Get started now! https://docs.drmtemplates.io/tutorials/quickstart.html
 ## About DRM Templates
 
 Dynamics Resource Management Templates (DRM) was built with Devops Engineers and Dynamics developers in mind. Based on 
-ARM Templates, they are constructed in the same way and offer many of the same functionality.
+ARM Templates, they are constructed in the same way and offer much of the same functionality.
 
 Managing multiple Dynamics environments can be challenging but by using this tool, 
 environments can be easily maintained and controlled all through your automation pipelines.

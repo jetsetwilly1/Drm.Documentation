@@ -113,7 +113,7 @@ Your template will look something like this.
 }
 ```
 
-Let's make sure we create a queue on the first run on the template.  Replace the 
+Let's make sure we create a queue on the first run of the template.  Replace the 
 ```data``` property in your template with the json below
 
 ```json
