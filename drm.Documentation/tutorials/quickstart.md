@@ -105,8 +105,10 @@ Create a new file called 'quickstartdrm.json' and copy the json template below.
 }
 ```
 
-Replace the ```paste your bearer token here``` text with the bearer token you copied from the 
+Replace the ```<paste your bearer token here>``` text with the bearer token you copied from the 
 previous step and save the template.
+
+Replace the ```<dynamics url>``` value with the dynamics url e.g. https://drmdemo.crm4.dynamics.com
 
 ## Deploy your template
 
@@ -115,6 +117,12 @@ In your PowerShell window run the following command to deploy your template.
 ```powershell
 New-DrmDeployment -TemplateFile '<absolute path to your template>'
 ```
+
+Log into your dynamics environment and check for a new team called 'Basic DRM Team'
+
+![Quickstart Drm Basic Team](/images/quickstart-drm-team.png "Quickstart Drm Team")
+
+Change the name of the team and redeploy the template to update the team name!
 
 ## Next steps
 

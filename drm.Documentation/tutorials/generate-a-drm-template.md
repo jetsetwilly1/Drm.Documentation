@@ -45,21 +45,31 @@ Now we have a connection to Dynamics you can generate templates.
 > By default templates are saved at the working directory location.  To change the location of the
 saved template use the ```-OutputToFile``` parameter.
 
+Commonly the ```New-DrmTemplate``` cmdlet takes two parameters
+
+- entityName (Required) - The name of the entity you want to query
+- filter - The odata based query to run against the entity
+
+Click here for more information on the [New-DrmTemplate](xref:new-drmtemplate-cmdlet) cmdlet.
+
 ### Filtering data
 
 You can filter the data returned in your template by using the ```$filter``` option in your query.
 
-For example the query below will return all teams that have a name equal to 'Drm Team'.
+Filters are simply odata based queries, for more examples on how your queries might look please take a look
+at the Microsoft documentation [here](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/query-data-web-api)
+
+For example the query below will return all teams that have a name equal to 'Basic Drm Team'.
 
 ```powershell
-New-DrmTemplate -entityName teams -filter '$select=name&$filter=name eq ''Drm Team''' 
+New-DrmTemplate -entityName teams -filter '$select=name&$filter=name eq ''Basic Drm Team''' 
 ```
 
 >[!NOTE]
 >If you need to filter by a string and need to quote it.  Please prefix the single quote with another.
 As per the example above.
 
-Another example which returns all document templates that equal 'Drm Document'.
+Another example below would return all document templates that equal 'Drm Document'.
 
 ```powershell
 New-DrmTemplate -entityName documenttemplates -filter '$filter=name eq ''Drm Document'''
@@ -69,13 +79,13 @@ New-DrmTemplate -entityName documenttemplates -filter '$filter=name eq ''Drm Doc
 
 #### Teams
 
-To generate a template that returns all teams in your dynamics environment.
+To generate a template that returns all the teams in your dynamics environment.
 
 ```powershell
 New-DrmTemplate -entityName teams
 ```
 
-The template returned will look something like below.
+The template returned could look something like this.
 
 ```json
 {
@@ -113,7 +123,8 @@ The template returned will look something like below.
 }
 ```
 
-To return only the team name in your template run
+To return only the team property 'name' in your template run the filter below using the ```$select``` property and
+setting it to 'name'
 
 ```powershell
 New-DrmTemplate -entityName teams -filter '$select=name'
