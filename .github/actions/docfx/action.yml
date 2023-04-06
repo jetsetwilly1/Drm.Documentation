@@ -4,7 +4,7 @@ description: Runs latest docfx as a GitHub Action.
 
 runs:
   using: docker
-  image: Dockerfile
+  image: ./Dockerfile
 
 branding:
   icon: book
