@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
       
-    - uses: nikeee/docfx-action@v1.0.0
+    - uses: .github/actions/docfx
       name: Build Documentation
       with:
         args: drm.Documentation/docfx.json
