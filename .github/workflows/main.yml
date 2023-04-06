@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
       
-    - uses: nunit/docfx-action@v1.0.0
+    - uses: jetsetwilly1/docfx-action@v1.0.3
       name: Build Documentation
       with:
         args: drm.Documentation/docfx.json
