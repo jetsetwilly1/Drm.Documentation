@@ -15,6 +15,29 @@
     }
   ],
   "build": {
+    "sitemap": {
+      "baseUrl": "https://docs.drmtemplates.io",
+      "priority": 0.1,
+      "changefreq": "monthly",
+      "fileOptions": {
+        "tutorials/**.md": {
+          "priority": 0.5,
+          "changefreq": "daily"
+        },
+        "documentation/**.md": {
+          "priority": 0.3,
+          "changefreq": "monthly"
+        },
+        "drmtemplates/**.md": {
+          "priority": 0.5,
+          "changefreq": "daily"
+        },
+        "articles/**.md": {
+          "priority": 0.8,
+          "changefreq": "daily"
+        }
+      }
+    },
     "content": [
       {
         "files": [
@@ -52,10 +75,14 @@
         ]
       }
     ],
+    "globalMetadata": {
+      "_appFooter": "Drm Templates - Automate your Dynamics 365 Deployments",
+      "_enableSearch": "false"
+    },
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "template": [ "default","modern" ],
+    "template": [ "default", "modern" ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
