@@ -27,7 +27,7 @@ Use VSCode or Visual Studio for example and take advantage of schema help while 
 Generate templates from a pre configured instance of Dynamics 
 and deploy templates all from our PowerShell module.
 
-[https://www.powershellgallery.com/packages/Drm.Templates.Powershell/](https://www.powershellgallery.com/packages/Drm.Templates.Powershell/)
+https://www.powershellgallery.com/packages/Drm.Templates.Powershell
 
 ## Prerequisites
 
