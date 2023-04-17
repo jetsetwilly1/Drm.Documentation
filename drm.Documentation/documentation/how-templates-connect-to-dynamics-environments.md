@@ -173,6 +173,6 @@ Field Service, and Customer Service Intelligence modules.
 
 ## Next steps
 
-LINKS TO 
-
-All the walkthroughs for each setup.
+- Learn how to [connect to Dynamics with an Azure App Registration.](xref:connect-to-dynamics-with-app-registration)
+- Learn how to [connect to Dynamics using a Bearer token.](xref:connect-to-dynamics-with-bearertoken)
+- Learn how to [connect to Dynamics using User credentials](xref:connect-to-dynamics-with-usercreds)
