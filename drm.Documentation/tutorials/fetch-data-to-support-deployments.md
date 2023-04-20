@@ -200,6 +200,29 @@ escape single quotes with another single quote as per the example below.
    }
 }
 ```
+### Single quotes in concat filters
+
+It's important to remember that when building queries with other functions such as 'concat' you will need to escape 
+singles quotes in your query.  So a single quote in your query string will become ''
+
+The example below is fetching the root business unit with name equal to BU Demo and using the result of this query
+in the 'roleId' query which will return a role Id.
+
+> [!NOTE]
+> The rootBusUnit query does not use concat which means you don't need to escape single quotes in the filter.
+
+```json
+"queries": {
+    "rootBusUnit": {
+        "entity": "businessunits",
+        "filter": "$filter=name eq 'BU Demo'"
+    },
+    "roleId": {
+        "entity": "roles",
+        "filter": "[concat('$select=name&$filter=_businessunitid_value eq ', queries('rootBusUnit').value[0].businessunitid, ' and name eq ''DRM Role''')]",
+        "comment": "Fetching role id for DRM Role"
+    }
+```
 
 ## Next steps
 
