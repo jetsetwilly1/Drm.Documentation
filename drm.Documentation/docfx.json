@@ -82,7 +82,7 @@
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "template": [ "default", "modern" ],
+    "template": [ "default", "modern", "_exported_templates/modern" ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
