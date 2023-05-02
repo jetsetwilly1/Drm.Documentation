@@ -80,6 +80,13 @@
       "_enableSearch": true,
       "_baseUrl": "https://docs.drmtemplates.io"
     },
+    "fileMetadata": {
+      "_appTitle": {
+        "tutorials/**.md": "DRM Dynamics 365 Tutorials",
+        "drmtemplates/**.md": "Automate Dynamics Deployments using DRM Templates",
+        "documentation/**.md": "Dynamics Resource Management (DRM) Documentation"
+      }
+    },
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],

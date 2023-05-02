@@ -1,5 +1,9 @@
 ---
 uid: generate-drm-template
+author: Stuart Elcocks
+date: 01/04/2023
+title: Generate a template
+description: Generate a DRM template by connecting to a Dynamics 365 environment using the New-DrmTemplate cmdlet.
 ---
 
 # Generate a template

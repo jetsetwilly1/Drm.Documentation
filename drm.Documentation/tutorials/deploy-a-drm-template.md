@@ -1,5 +1,9 @@
 ---
 uid: deploy-drm-template-including-parameters
+author: Stuart Elcocks
+date: 03/04/2023
+title: Deploy a template with parameters
+description: Deploy a DRM template to a Dynamics 365 environment using a parameter set.
 ---
 
 # Deploy a template with parameters

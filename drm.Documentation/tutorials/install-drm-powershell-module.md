@@ -1,5 +1,9 @@
 ---
 uid: install-powerhsell-module
+author: Stuart Elcocks
+date: 01/04/2023
+title: The Drm.Templates.Powershell Module
+description: How to download and install the Drm.Templates.Powershell module from the powershell gallery.
 ---
 
 # The Drm.Templates.Powershell Module

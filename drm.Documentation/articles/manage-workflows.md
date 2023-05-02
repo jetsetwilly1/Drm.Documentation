@@ -28,7 +28,7 @@ its state to 'draft'
 {
   "targetenvironment": "[variables('dynamicsCredentials')]",
   "type": "drm.crmbaseentity/workflows",
-  "apiVersion": "2022-04-03",
+  "apiVersion": "2023-01-09",
   "name": "CVS_Workflows_Turn_Off",
   "properties": {
     "workflows": [
