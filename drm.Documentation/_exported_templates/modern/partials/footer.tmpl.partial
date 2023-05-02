@@ -1,0 +1,36 @@
+﻿<footer class="footer">
+  <div><!-- Github links --></div>
+  <div class="footer__strap">
+   <h2>Automate Your Dynamics 365 deployments using DRM Templates.</h2>
+   <div class="straptext">Contribute to the Powerhsell module and documentation, lets make this the go to tool for Dynamics 365 Automation.</div>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Links</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a class="btn border-0" href="https://www.powershellgallery.com/packages/Drm.Templates.Powershell">Download the module from the Powershell Gallery</a>
+        </li>
+        <li>
+          <a class="btn border-0" href="https://github.com/jetsetwilly1/Drm.Powershell">Github: Contribute to the module</a>
+        </li> 
+        <li>
+          <a class="btn border-0" href="https://github.com/jetsetwilly1/Drm.Documentation">Github: Contribute to the documenatation</a>
+        </li>
+        <li>
+          <a class="btn border-0" href="https://github.com/jetsetwilly1/Drm.Schemas">Json Schemas hosted on Github for entity validation</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <p>&copy; 2023 DRM Templates. All rights reserved.</p>
+    
+    <div class="legal__links">
+      {{{_appFooter}}}{{^_appFooter}}<span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>{{/_appFooter}}
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,1 @@
+﻿<div class="article-info">{{#author}}Article | {{author}} | {{#date}}{{date}}{{/date}} {{/author}}</div>

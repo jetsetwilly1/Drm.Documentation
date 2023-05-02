@@ -1,5 +1,9 @@
 ---
 uid: drm-quickstart
+author: Stuart Elcocks
+date: 24/04/2023
+title: DRM Templates quickstart
+description: Learn how to deploy a Dynamics 365 DRM Template quickly with this tutorial.  Deploy a basic Team to your Dynamics 365 environment.
 ---
 
 # Quickstart

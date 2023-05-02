@@ -76,13 +76,14 @@
       }
     ],
     "globalMetadata": {
-      "_appFooter": "Drm Templates - Automate your Dynamics 365 Deployments",
-      "_enableSearch": "false"
+      "_appTitle": "Automate Dynamics 365 Deployments",
+      "_enableSearch": true,
+      "_baseUrl": "https://docs.drmtemplates.io"
     },
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "template": [ "default", "modern", "_exported_templates/modern" ],
+    "template": [ "default", "_exported_templates/modern" ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
