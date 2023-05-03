@@ -1,8 +1,12 @@
 ---
 uid: fetch-data-generate-dynamic-lists
+author: Stuart Elcocks
+date: 28/03/2023
+title: Fetch data and generate dynamic lists within your DRM Template
+description: It's possible to create multiple objects inside an array from the results set of a query in your DRM Template. For example by using the queriescopyon property its possible to populate the members of a queue entity.  Read through this document to get a better understanding of generating dynamic lists. 
 ---
 
-# Fetch data and generate dynamic lists
+# Fetch data and generate dynamic lists within your DRM Template
 
 Its possible to create multiple objects inside an array from the results set of a query.
 

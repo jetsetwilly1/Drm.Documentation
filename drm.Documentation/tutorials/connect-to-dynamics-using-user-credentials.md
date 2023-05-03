@@ -1,5 +1,9 @@
 ---
 uid: connect-to-dynamics-with-usercreds
+author: Stuart Elcocks
+date: 25/03/2023
+title: Connecting to Dynamics using User credentials
+description: How to connect to a Dynamics 365 environment using user credentials and impersonation.  Follow the walkthrough and deploy a DRM template to an Dynamics environment with user credentials.
 ---
 
 # Connecting to Dynamics using User credentials

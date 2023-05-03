@@ -1,5 +1,9 @@
 ---
 uid: setup-app-reg-connection
+author: Stuart Elcocks
+date: 21/03/2023
+title: Setup Application Registration connection
+description: Setup an application registration in Azure to allow connections to Dynamics 365 instances when deploying DRM templates.
 ---
 
 # Setup Application Registration connection

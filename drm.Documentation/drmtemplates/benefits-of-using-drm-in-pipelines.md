@@ -1,5 +1,9 @@
 ---
 uid: benefits-use-drm-automation
+author: Stuart Elcocks
+date: 04/04/2023
+title: Benefits of using DRM templates
+description: Here are some of the advantages of using DRM templates to manage the configuration of your Dynamics 365 environments using automation.  Without automation, deploying Dynamics solutions and configuration could quickly become a time consuming process.
 ---
 
 # Benefits of using DRM templates

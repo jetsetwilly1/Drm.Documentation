@@ -1,5 +1,9 @@
 ---
 uid: deploy-drm-ado-pipelines
+author: Stuart Elcocks
+date: 01/04/2023
+title: Azure Devops Portal ADO Deploy DRM Templates
+description: Setup your Azure ADO yaml pipeline and deploy DRM templates as part of your end to end automation process configuring your Dynamics 365 environments.  Read through this article for step by step instructions on setting up your Yaml pipeline.
 ---
 
 # ADO - Deploy DRM Templates

@@ -1,5 +1,9 @@
 ---
 uid: connect-to-dynamics-with-app-registration
+author: Stuart Elcocks
+date: 23/03/2023
+title: Connecting to Dynamics with an Azure App Registration
+description: The most common way of connecting to Dynamics 365 environments when deploying DRM templates is to use an Azure application registration.  Follow this walkthrough to deploy a DRM template using an application registration.
 ---
 
 # Connecting to Dynamics with an Azure App Registration

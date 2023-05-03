@@ -1,5 +1,9 @@
 ---
 uid: connect-to-dynamics-with-bearertoken
+author: Stuart Elcocks
+date: 23/03/2023
+title: Connecting to Dynamics using a Bearer token
+description: Use connect-crmonline to connect to a Dynamics 365 environment and deploy DRM templates using a bearer token.
 ---
 
 # Connecting to Dynamics using a Bearer token

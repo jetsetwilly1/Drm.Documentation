@@ -1,11 +1,15 @@
 ---
 uid: fetch-data-support-deployments
+author: Stuart Elcocks
+date: 28/03/2023
+title: Fetch data using queries when deploying DRM Templates to your Dynamics environment
+description: When deploying to your Dynamics 365 environment, it is possible to fetch data using queries inside your DRM Template. This allows you to update entities based on data that is only known when the template is deployed.  Take a look at the queries block in detail and work through some of the examples.
 ---
 
-# Fetch Data using queries when deploying to your target environment
+# Fetch data using queries when deploying DRM Templates to your Dynamics environment
 
 When deploying to your target environment, it is possible to fetch data using queries. This allows
-you to update entities based on data that is only known at runtime.
+you to update entities based on data that is only known when the template is deployed.
 
 To do this, you can add a "queries" block in your template, give the query a name, and specify
 the entity and filter. The filter should be written in OData format.

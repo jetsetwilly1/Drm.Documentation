@@ -1,8 +1,12 @@
 ---
 uid: recommended-file-structure
+author: Stuart Elcocks
+date: 01/04/2023
+title: Repository recommended file structure
+description: This article goes through a recommended approach for adding your DRM template files to a repository.  This is in relation to running templates from automation pipelines.
 ---
 
-# Recommended file structure
+# Recommended repository file structure
 
 >[!NOTE]
 > This is a recommended approach, you could follow any pattern you like 

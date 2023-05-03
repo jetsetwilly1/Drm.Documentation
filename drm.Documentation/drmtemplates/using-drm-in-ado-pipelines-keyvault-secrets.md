@@ -1,5 +1,9 @@
 ---
 uid: deploy-drm-ado-pipelines-with-params
+author: Stuart Elcocks
+date: 01/04/2023
+title: Azure Devops Portal ADO Deploy DRM Templates using parameter keyvault secrets
+description: Setup your ADO pipeline to access keyvault secrets via parameter files when deploying DRM templates.
 ---
 
 # ADO - Deploy DRM Templates using parameter keyvault secrets

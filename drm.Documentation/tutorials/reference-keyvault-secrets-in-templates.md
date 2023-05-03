@@ -1,5 +1,9 @@
 ---
 uid: reference-keyvault-secrets
+author: Stuart Elcocks
+date: 28/03/2023
+title: Reference keyvault secrets in parameter files
+description: How to reference keyvault secrets in DRM template parameter files. Follow this document to setup a keyvault with the correct access policy and deploy a DRM template to your Dynamics 365 environment.
 ---
 
 # Reference keyvault secrets in parameter files
