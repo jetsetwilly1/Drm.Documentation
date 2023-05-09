@@ -1,8 +1,12 @@
 ---
 uid: example-connection-references
+author: Stuart Elcocks
+date: 21/04/2023
+title: Configure Dynamics Connection References
+description: This document focuses on connection references.  Dynamics environments can be setup with lots of connections to various sources.  This document will show you how to generate and deploy a drm template that manage the connection references.
 ---
 
-# Connection References
+# Configure Dynamics Connection References
 
 This document focuses on connection references.  It is
 important to note that if the connection itself is not present in the Dynamics environment where

@@ -1,5 +1,9 @@
 ---
 uid: example-manage-workflows
+author: Stuart Elcocks
+date: 21/04/2023
+title: Managing workflows
+description: The Workflows entity in Dynamics covers the following types or category of workflow. As more examples become available for interactions with these flow, this document will be updated.
 ---
 
 # Managing workflows

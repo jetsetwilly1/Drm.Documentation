@@ -1,5 +1,9 @@
 ---
 uid: example-manage-app-user-accounts
+author: Stuart Elcocks
+date: 04/04/2023
+title: Manage Application Users
+description: Using the 'SystemUsers' entity its possible to manage any application user accounts in your Dynamics instance.  Follow this walkthrough to deploy an Application user with role association to a Dynamics 364 environment.
 ---
 
 # Manage Application Users

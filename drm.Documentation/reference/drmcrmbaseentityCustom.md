@@ -63,7 +63,7 @@ The following tables describe the values you need to set in the schema.
 
 | Name   | Type  | Required | Value                                                    |
 |-|-|-|-|
-| entityname | string | Yes | The name of the entity you are targetting. |
+| entityname | string | Yes | The name of the entity you are targeting. This should also be the collection name. |
 | data | object | Yes | Each object should represent a 'row' of data you are patching into the entity.  Please see the example [here](xref:example-manage-custom-entities) on how to add data. |
 
 ### queries object
@@ -77,7 +77,7 @@ The following tables describe the values you need to set in the schema.
 | Name       | Type   | Required | Value                                                                                                    |
 |-|-|-|-|
 | entity | string | Yes | The name of the entity you are targeting. See this [list](xref:supported-web-entities) for a collection of supported entities |
-| filter | string | Yes | The Odata based filter string.|
+| filter | string | Yes | The OData based filter string.|
 
 ### targetenvironment object
 

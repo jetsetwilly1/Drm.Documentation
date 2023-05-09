@@ -1,5 +1,9 @@
 ---
 uid: example-transfer-document-templates
+author: Stuart Elcocks
+date: 21/04/2023
+title: Transfer Word Document Templates
+description: Word document templates can be migrated across environments by generating the template from a source Dynamics environment.
 ---
 
 # Transfer Word Document Templates

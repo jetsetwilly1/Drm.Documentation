@@ -1,5 +1,9 @@
 ---
 uid: example-manage-custom-entities
+author: Stuart Elcocks
+date: 29/04/2023
+title: Manage Custom Entities
+description: The custom entities api allows you to patch custom entities within your Dynamics CRM environment. A custom entity is a table or entity that has been created to meet a projects requirements and therefore cannot be targeted using any standard dynamics odata web api call.
 ---
 
 # Manage Custom Entities
@@ -27,6 +31,9 @@ A cfg_group can have many cfg_item.
 In this example we can see straight away that we have a dependency on cfg_group 
 being available first before adding items to it.
 
+> [!NOTE]
+>  The entityname must be set to the collection name or plural for the table.
+
 To patch the cfg_group the template will look like this
 
 ```json
@@ -36,7 +43,7 @@ To patch the cfg_group the template will look like this
   "apiVersion": "2023-01-09", 
   "name": "configurationgroup", 
   "properties": { 
-    "entityname": "cfg_group",
+    "entityname": "cfg_groups",
     "data":[ 
       { 
         "cfg_group_id": "173753c7-f315-4d3f-994e-d2fd6a2502c8", 
@@ -56,7 +63,7 @@ And to add two cfg_items we would do this.
   "apiVersion": "2023-01-09", 
   "name": "configurationitems", 
   "properties": { 
-    "entityname": "cfg_item", 
+    "entityname": "cfg_items", 
     "data": [
       { 
         "cfg_item_id": "cd0ae30f-5cb8-4808-afa0-651afca1e952", 

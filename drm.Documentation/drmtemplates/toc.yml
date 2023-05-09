@@ -10,7 +10,7 @@
       href: recommended-file-structure.md
     - name: Benefits of using DRM templates
       href: benefits-of-using-drm-in-pipelines.md
-- name: Managing your Dynamics Environments
+- name: Template Examples
   href: ../articles/toc.yml
 - name: Supported Web Api Entities
   href: supported-web-api-entities.md

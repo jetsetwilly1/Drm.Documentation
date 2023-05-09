@@ -1,5 +1,9 @@
 ---
 uid: example-set-env-variables
+author: Stuart Elcocks
+date: 21/04/2023
+title: Setting environment variables
+description: Lets take a look at how DRM templates can be used to manage your Environment variables.  This article covers two approaches which are by configuring either the 'environmentvariablevalues' entity or 'environmentvariabledefinitions'.
 ---
 
 # Setting environment variables

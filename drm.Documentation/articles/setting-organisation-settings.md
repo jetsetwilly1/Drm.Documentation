@@ -1,5 +1,9 @@
 ---
 uid: example-organisation-settings
+author: Stuart Elcocks
+date: 21/04/2023
+title: Organization settings
+description: Manage your organization settings using DRM templates. Set the Dynamics locale, have audit and advanced filter enabled. There are so many things you can set with this entity.
 ---
 
 # Organisation settings

@@ -1,5 +1,9 @@
 ---
 uid: example-manage-business-unit
+author: Stuart Elcocks
+date: 09/04/2023
+title: Manage Business Units
+description: In this example we are going to rename the root business unit and manage a child business unit. Follow the tutorial to finish with drm template and parameter files that can be deployed to configure your business units.
 ---
 
 
