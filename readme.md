@@ -4,17 +4,23 @@ Powershell Module: https://www.powershellgallery.com/packages/Drm.Templates.Powe
 
 ## Documentation
 
-Documentation is hosted at https://docs.drmtemplates.io
+This is the documentation for DRM Templates hosted at https://docs.drmtemplates.io 
+built using [DocFx](https://dotnet.github.io/docfx/).
 
 ## Contribute
 
-Please feel free to contribute to the documentation.
+Install the latest version of DocFX on your machine and run the following command to run it locally 
+from your machine.
 
-The documentation is markdown based and compiled using DocFx.
+```
+docfx.exe "<Absolute path>\Drm.Documentation\Drm.Documentation\docfx.json" --serve
+```
 
 Create a branch, make your changes, once the PR is approved an action will be triggered and the documentation updated.
 
-Start creating templates quickly. https://docs.drmtemplates.io/tutorials/quickstart.html
+## About DRM Templates
+
+Start creating DRM templates quickly. https://docs.drmtemplates.io/tutorials/quickstart.html
 
 Generate templates using a simple powershell cmd: https://docs.drmtemplates.io/tutorials/generate-a-drm-template.html 
 
@@ -28,8 +34,6 @@ Here's some of the how-to's already written
 - [Transfer Word Document Templates](https://docs.drmtemplates.io/articles/document-templates.html)
 - [Manage workflows](https://docs.drmtemplates.io/articles/manage-workflows.html)
 - [Manage Custom Entities](https://docs.drmtemplates.io/articles/manage-custom-entities.html)
-
-## About DRM Templates
 
 Dynamics Resource Management Templates (DRM) was built with Devops 
 Engineers and Dynamics developers in mind. Based on ARM Templates, 
