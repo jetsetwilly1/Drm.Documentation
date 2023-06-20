@@ -3,3 +3,5 @@
   homepage: tutorials/quickstart.md
 - name: Documentation
   href: documentation/
+- name: Drm Toolbox
+  href: tools/

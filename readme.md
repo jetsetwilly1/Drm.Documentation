@@ -9,14 +9,17 @@ built using [DocFx](https://dotnet.github.io/docfx/).
 
 ## Contribute
 
-Install the latest version of DocFX on your machine and run the following command to run it locally 
-from your machine.
+Install the latest version of DocFX on your machine and execute the following 
+command to run it locally on your machine.
 
 ```
 docfx.exe "<Absolute path>\Drm.Documentation\Drm.Documentation\docfx.json" --serve
 ```
 
-Create a branch, make your changes, once the PR is approved an action will be triggered and the documentation updated.
+Once the site is compiled you can access it via http://localhost:8080
+
+Create a branch, make your changes, once the PR is approved an action will be 
+triggered and the documentation updated.
 
 ## About DRM Templates
 

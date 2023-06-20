@@ -28,6 +28,10 @@
           "priority": 0.3,
           "changefreq": "monthly"
         },
+        "tools/**.md": {
+          "priority": 0.3,
+          "changefreq": "monthly"
+        },
         "drmtemplates/**.md": {
           "priority": 0.5,
           "changefreq": "daily"
@@ -50,6 +54,8 @@
           "drmtemplates/**/toc.yml",
           "documentation/**.md",
           "documentation/**/toc.yml",
+          "tools/**.md",
+          "tools/**/toc.yml",
           "toc.yml",
           "*.md"
         ]
@@ -84,7 +90,8 @@
       "_appTitle": {
         "tutorials/**.md": "DRM Dynamics 365 Tutorials",
         "drmtemplates/**.md": "Automate Dynamics Deployments using DRM Templates",
-        "documentation/**.md": "Dynamics Resource Management (DRM) Documentation"
+        "documentation/**.md": "Dynamics Resource Management (DRM) Documentation",
+        "tools/**.md": "DRM Toolbox"
       }
     },
     "dest": "_site",
