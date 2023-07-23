@@ -8,7 +8,7 @@ description: The Drm toolbox is a collection of handy powershell cmdlets that ca
 
 # What is DRM Toolbox?
 
-DRM toolbox is a play on XRM Toolbox.  The idea is to build a collection of powershell cmdlets with a focus on 
+DRM toolbox is a play on XRMToolBox.  The idea is to build a collection of powershell cmdlets with a focus on 
 automation of Dynamics environments.
 
 The cmdlets will be added to the Drm.Templates powershell module making all of the automation tools accessible 
