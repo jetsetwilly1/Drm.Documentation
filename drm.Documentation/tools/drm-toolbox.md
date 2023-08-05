@@ -22,3 +22,12 @@ If you think you have a cmdlet that somebody else might find useful then follow
 the guidelines on the [github repo](https://github.com/jetsetwilly1/Drm.Powershell)
  to get it included in the module!
 
+## Microsoft.Xrm.Data.PowerShell
+
+We are starting to add cmdlets that sometimes might depend on the module developed by Sean McNellis called 
+[Microsoft.Xrm.Data.PowerShell](https://github.com/seanmcne/Microsoft.Xrm.Data.PowerShell).  The module
+gives you the ability to interact with the Dynamics web api directly using cmdlets such as ```New-CrmRecord```,
+```Get-CrmRecord``` and ```Set-CrmRecord```.
+
+Please check out the open source project here https://github.com/seanmcne/Microsoft.Xrm.Data.PowerShell!
+

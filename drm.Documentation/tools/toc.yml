@@ -4,3 +4,9 @@
   items:
     - name: Set environment vars inside a solution
       href: set-env-vars-inside-exracted-solution.md
+    - name: Turn cloudflows on or off
+      href: set-solutioncloudflowsstate.md
+    - name: Update all Dynamics cloudflows to a new owner
+      href: set-cloudflowsowner.md
+    - name: Manage a Dynamics seed value during an ADO deployment
+      href: dynamicsautonumber.md
