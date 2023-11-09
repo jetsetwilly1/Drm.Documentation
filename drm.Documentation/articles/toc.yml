@@ -1,5 +1,7 @@
 - name: Application user accounts
   href: manage-application-user-accounts.md
+- name: Working with Teams
+  href: working-with-teams.md
 - name: Business Units
   href: manage-business-units.md
 - name: Connection References
